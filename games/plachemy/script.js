@@ -1,4 +1,5 @@
-﻿const elementContainer = document.getElementById('elementContainer');
+﻿
+const elementContainer = document.getElementById('elementContainer');
 const element1Display = document.getElementById('element1');
 const element2Display = document.getElementById('element2');
 const element1Text = document.getElementById('elementI');
@@ -6,6 +7,8 @@ const element2Text = document.getElementById('elementII');
 const combineBtn = document.getElementById('combineBtn');
 const clearBtn = document.getElementById('clearBtn');
 const progressDisplay = document.getElementById('progressDisplay');
+var soundtrack = new Audio('mirage.mp3');
+var select = new Audio('select.mp3');
 
 let unlockedElements = ["fire", "water", "earth", "air"];
 let selectedElement1 = null;
@@ -28,6 +31,9 @@ async function fetchData() {
     }
 }
 
+function music() {
+    soundtrack.play()
+}
 function renderElements() {
     elementContainer.innerHTML = '';
     unlockedElements.forEach(element => {
@@ -55,6 +61,7 @@ function selectElement(element) {
         element2Display.innerHTML = `<img src="assets/${elementsData[element].texture}" alt="${element}" title="${element}" style="width: 120px; height: 120px; object-fit: contain; image-rendering: pixelated;">`;
         element2Text.innerHTML = element;
     }
+    select.play()
 }
 
 combineBtn.onclick = () => {
