@@ -56,12 +56,13 @@ function selectElement(element) {
         selectedElement1 = element;
         element1Display.innerHTML = `<img src="assets/${elementsData[element].texture}" alt="${element}" title="${element}" style="width: 120px; height: 120px; object-fit: contain;">`;
         element1Text.innerHTML = element;
+        select.cloneNode(true).play()
     } else if (!selectedElement2) {
         selectedElement2 = element;
         element2Display.innerHTML = `<img src="assets/${elementsData[element].texture}" alt="${element}" title="${element}" style="width: 120px; height: 120px; object-fit: contain; image-rendering: pixelated;">`;
         element2Text.innerHTML = element;
+        select.cloneNode(true).play()
     }
-    select.play()
 }
 
 combineBtn.onclick = () => {
