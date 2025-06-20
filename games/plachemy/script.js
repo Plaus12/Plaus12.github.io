@@ -9,6 +9,7 @@ const clearBtn = document.getElementById('clearBtn');
 const progressDisplay = document.getElementById('progressDisplay');
 var soundtrack = new Audio('mirage.mp3');
 var select = new Audio('select.mp3');
+var combine = new Audio('combine.mp3');
 
 let unlockedElements = ["fire", "water", "earth", "air"];
 let selectedElement1 = null;
@@ -74,6 +75,7 @@ combineBtn.onclick = () => {
 
         if (combination && !unlockedElements.includes(combination.result)) {
             unlockedElements.push(combination.result);
+            combine.cloneNode(true).play()
             updateProgress();
         }
 
