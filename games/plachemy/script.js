@@ -10,6 +10,7 @@ const progressDisplay = document.getElementById('progressDisplay');
 var soundtrack = new Audio('mirage.mp3');
 var select = new Audio('select.mp3');
 var combine = new Audio('combine.mp3');
+var clear = new Audio('sweep.mp3');
 
 let unlockedElements = ["fire", "water", "earth", "air"];
 let selectedElement1 = null;
@@ -97,6 +98,7 @@ clearBtn.onclick = () => {
     element2Display.innerHTML = ' ';
     element1Text.innerHTML = '-';
     element2Text.innerHTML = '-';
+    clear.cloneNode(true).play()
 
     renderElements();
 };
