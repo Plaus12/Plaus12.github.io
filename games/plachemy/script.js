@@ -11,6 +11,7 @@ var soundtrack = new Audio('mirage.mp3');
 var select = new Audio('select.mp3');
 var combine = new Audio('combine.mp3');
 var clear = new Audio('sweep.mp3');
+var failed = new Audio('failed.mp3');
 
 let unlockedElements = ["fire", "water", "earth", "air"];
 let selectedElement1 = null;
@@ -78,6 +79,9 @@ combineBtn.onclick = () => {
             unlockedElements.push(combination.result);
             combine.cloneNode(true).play()
             updateProgress();
+        }
+        else {
+            failed.cloneNode(true).play()
         }
 
         selectedElement1 = null;
