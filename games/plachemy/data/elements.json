@@ -84,5 +84,10 @@
     "snow": { "texture": "snow.png" },
     "farmer": { "texture": "farmer.png" },
     "fish": { "texture": "fish.png" },
+    "grain": { "texture": "grain.png" },
+    "windmill": { "texture": "windmill.png" },
+    "flour": { "texture": "flour.png" },
+    "dough": { "texture": "dough.png" },
+    "bread": { "texture": "bread.png" },
     "stone": { "texture": "stone.png" }
 }

@@ -102,5 +102,15 @@
     { "elements": ["life", "sea"], "result": "fish" },
     { "elements": ["life", "ocean"], "result": "fish" },
     { "elements": ["life", "water"], "result": "fish" },
+    { "elements": ["grass", "farmer"], "result": "grain" },
+    { "elements": ["grass", "human"], "result": "grain" },
+    { "elements": ["wind", "house"], "result": "windmill" },
+    { "elements": ["grain", "house"], "result": "windmill" },
+    { "elements": ["grain", "windmill"], "result": "flour" },
+    { "elements": ["grain", "stone"], "result": "flour" },
+    { "elements": ["flour", "water"], "result": "dough" },
+    { "elements": ["flour", "milk"], "result": "dough" },
+    { "elements": ["dough", "fire"], "result": "bread" },
+    { "elements": ["dough", "heat"], "result": "bread" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]
