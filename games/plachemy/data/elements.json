@@ -89,5 +89,7 @@
     "flour": { "texture": "flour.png" },
     "dough": { "texture": "dough.png" },
     "bread": { "texture": "bread.png" },
+    "rainbow": { "texture": "rainbow.png" },
+    "flower": { "texture": "flower.png" },
     "stone": { "texture": "stone.png" }
 }

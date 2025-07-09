@@ -112,5 +112,7 @@
     { "elements": ["flour", "milk"], "result": "dough" },
     { "elements": ["dough", "fire"], "result": "bread" },
     { "elements": ["dough", "heat"], "result": "bread" },
+    { "elements": ["rain", "sun"], "result": "rainbow" },
+    { "elements": ["rainbow", "plant"], "result": "flower" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]
