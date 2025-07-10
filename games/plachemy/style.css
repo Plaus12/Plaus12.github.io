@@ -132,22 +132,19 @@ button {
     color: var(--text-color);
 }
 
-#hintContainer {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 #hintBtn {
+    position: absolute;
+    top: 40px;
+    right: 10px;
     font-family: Pixelium;
-    font-size: 20px;
-    padding: 8px 16px;
+    font-size: 16px;
+    padding: 6px 12px;
     background-color: var(--button-color);
     color: var(--text-color);
     border: none;
     cursor: pointer;
 }
+
 
 body {
     position: relative;
