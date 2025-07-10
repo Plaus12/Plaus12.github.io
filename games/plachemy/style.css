@@ -92,6 +92,7 @@ button {
     padding: 10px 20px;
     background-color: var(--button-color);
     color: var(--text-color);
+    cursor: pointer;
 }
 
 .element-container {
@@ -136,13 +137,9 @@ button {
     position: absolute;
     top: 40px;
     right: 10px;
-    font-family: Pixelium;
-    font-size: 16px;
     padding: 6px 12px;
     background-color: var(--button-color);
     color: var(--text-color);
-    border: none;
-    cursor: pointer;
 }
 
 
