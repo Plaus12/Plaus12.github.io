@@ -132,8 +132,21 @@ button {
     color: var(--text-color);
 }
 
-#hintBtn {
+#hintContainer {
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#hintBtn {
+    font-family: Pixelium;
+    font-size: 20px;
+    padding: 8px 16px;
+    background-color: var(--button-color);
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
 }
 
 body {
