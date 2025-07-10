@@ -91,5 +91,12 @@
     "bread": { "texture": "bread.png" },
     "rainbow": { "texture": "rainbow.png" },
     "flower": { "texture": "flower.png" },
+    "egg": { "texture": "egg.png" },
+    "bird": { "texture": "bird.png" },
+    "leather": { "texture": "leather.png" },
+    "sword": { "texture": "sword.png" },
+    "meat": { "texture": "meat.png" },
+    "cheese": { "texture": "cheese.png" },
+    "sandwich": { "texture": "sandwich.png" },
     "stone": { "texture": "stone.png" }
 }
