@@ -29,6 +29,24 @@ async function fetchData() {
 
         updateProgress();
         renderElements();
+
+        document.getElementById('hintBtn').onclick = () => {
+            const possibleHints = combinationsData.filter(combo => {
+                const result = combo.result;
+                const [e1, e2] = combo.elements;
+                return !unlockedElements.includes(result) &&
+                    unlockedElements.includes(e1) &&
+                    unlockedElements.includes(e2);
+            });
+
+            if (possibleHints.length > 0) {
+                const hint = possibleHints[Math.floor(Math.random() * possibleHints.length)];
+                alert(`${hint.elements[0]} + ${hint.elements[1]}`);
+            } else {
+                alert("No hints available");
+            }
+        };
+
     } catch (error) {
         console.error("Error loading JSON data: ", error);
     }
@@ -105,23 +123,6 @@ clearBtn.onclick = () => {
     clear.cloneNode(true).play()
 
     renderElements();
-};
-
-document.getElementById('hintBtn').onclick = () => {
-    const possibleHints = combinationsData.filter(combo => {
-        const result = combo.result;
-        const [e1, e2] = combo.elements;
-        return !unlockedElements.includes(result) &&
-            unlockedElements.includes(e1) &&
-            unlockedElements.includes(e2);
-    });
-
-    if (possibleHints.length > 0) {
-        const hint = possibleHints[Math.floor(Math.random() * possibleHints.length)];
-        alert(`${hint.elements[0]} + ${hint.elements[1]}`);
-    } else {
-        alert("No hints available");
-    }
 };
 
 fetchData();
