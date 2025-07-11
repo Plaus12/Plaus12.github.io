@@ -13,7 +13,20 @@ var combine = new Audio('combine.mp3');
 var clear = new Audio('sweep.mp3');
 var failed = new Audio('failed.mp3');
 
-let unlockedElements = ["fire", "water", "earth", "air"];
+let unlockedElements = [];
+
+const savedData = localStorage.getItem("unlockedElements");
+if (savedData) {
+    try {
+        unlockedElements = JSON.parse(savedData);
+    } catch (e) {
+        console.error("Failed to parse saved unlockedElements:", e);
+        unlockedElements = ["fire", "water", "earth", "air"];
+    }
+} else {
+    unlockedElements = ["fire", "water", "earth", "air"];
+}
+
 let selectedElement1 = null;
 let selectedElement2 = null;
 
@@ -78,6 +91,7 @@ combineBtn.onclick = () => {
 
         if (combination && !unlockedElements.includes(combination.result)) {
             unlockedElements.push(combination.result);
+            localStorage.setItem("unlockedElements", JSON.stringify(unlockedElements));
             combine.cloneNode(true).play()
             updateProgress();
         }
