@@ -12,6 +12,7 @@ var select = new Audio('select.mp3');
 var combine = new Audio('combine.mp3');
 var clear = new Audio('sweep.mp3');
 var failed = new Audio('failed.mp3');
+var hintTimer = 0;
 
 let unlockedElements = [];
 
@@ -137,7 +138,7 @@ function getHint() {
             unlockedElements.includes(e2);
     });
 
-    if (possibleHints.length > 0) {
+    if (possibleHints.length > 0 && hintTimer <= 1) {
         const hint = possibleHints[Math.floor(Math.random() * possibleHints.length)];
         if (Math.random() <= 0.5) {
             alert(`You can combine ${hint.elements[0]} + ${hint.elements[1]}.`);
@@ -145,8 +146,23 @@ function getHint() {
         else {
             alert(`You can create ${hint.result}.`);
         }
-    } else {
-        alert("No hints available");
+        hintTimer = 30;
+
+        var hintInterval = setInterval(function () {
+            if (hintTimer > 1) {
+                hintTimer--;
+            }
+            else {
+                clearInterval(hintInterval);
+            }
+        }, 1000);
+
+    }
+    else if (possibleHints.length > 0 && !hintTimer <= 1) {
+        alert(`You can use a hint in ${hintTimer} seconds.`);
+    }
+    else {
+        alert("No hints available.");
     }
 }
 function resetProgress() {
