@@ -33,6 +33,8 @@ let selectedElement2 = null;
 let elementsData = {};
 let combinationsData = [];
 
+console.log("Input resetProgress() in the console in order to reset your progress. Warning! This action cannot be undone.");
+
 async function fetchData() {
     try {
         const elementsResponse = await fetch('data/elements.json');
