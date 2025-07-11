@@ -139,7 +139,12 @@ function getHint() {
 
     if (possibleHints.length > 0) {
         const hint = possibleHints[Math.floor(Math.random() * possibleHints.length)];
-        alert(`${hint.elements[0]} + ${hint.elements[1]}`);
+        if (Math.random() <= 0.5) {
+            alert(`You can combine ${hint.elements[0]} + ${hint.elements[1]}.`);
+        }
+        else {
+            alert(`You can create ${hint.result}.`);
+        }
     } else {
         alert("No hints available");
     }
