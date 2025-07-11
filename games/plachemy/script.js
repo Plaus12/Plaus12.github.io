@@ -142,5 +142,9 @@ function getHint() {
         alert("No hints available");
     }
 }
+function resetProgress() {
+    localStorage.removeItem("unlockedElements");
+    location.reload();
+}
 
 fetchData();
