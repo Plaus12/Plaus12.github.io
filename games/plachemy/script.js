@@ -58,7 +58,7 @@ function renderElements() {
     unlockedElements.forEach(element => {
         const elementDiv = document.createElement('div');
         elementDiv.classList.add('element');
-        elementDiv.innerHTML = `<img src="assets/${elementsData[element].texture}" alt="${element}" title="${element}">`;
+        elementDiv.innerHTML = `<img src="assets/${elementsData[element].texture}" draggable="false" alt="${element}" title="${element}">`;
         elementDiv.onclick = () => selectElement(element);
         elementContainer.appendChild(elementDiv);
     });
