@@ -95,6 +95,16 @@ button {
     cursor: pointer;
 }
 
+button:hover
+{
+    background:rgba(0,0,0,0.1)
+}
+
+button:active
+{
+    background:rgba(0,0,0,0.25)
+}
+
 .element-container {
     display: flex;
     flex-wrap: wrap;
