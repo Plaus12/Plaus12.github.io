@@ -151,11 +151,11 @@ button:active {
     background: rgba(0,0,0,0.25)
 }
 
-element:hover {
+.element:hover {
     background: rgba(0,0,0,0.1)
 }
 
-element:active {
+.element:active {
     background: rgba(0,0,0,0.25)
 }
 
