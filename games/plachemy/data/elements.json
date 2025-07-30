@@ -98,5 +98,15 @@
     "meat": { "texture": "meat.png" },
     "cheese": { "texture": "cheese.png" },
     "sandwich": { "texture": "sandwich.png" },
+    "snowman": { "texture": "snowman.png" },
+    "mushroom": { "texture": "mushroom.png" },
+    "evergreen": { "texture": "evergreen.png" },
+    "gold": { "texture": "gold.png" },
+    "money": { "texture": "money.png" },
+    "book": { "texture": "book.png" },
+    "belt": { "texture": "belt.png" },
+    "bee": { "texture": "bee.png" },
+    "wax": { "texture": "wax.png" },
+    "candle": { "texture": "candle.png" },
     "stone": { "texture": "stone.png" }
 }

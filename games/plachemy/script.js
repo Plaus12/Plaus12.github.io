@@ -52,6 +52,7 @@ async function fetchData() {
 }
 
 function music() {
+    soundtrack.loop = true;
     soundtrack.play()
 }
 function renderElements() {
