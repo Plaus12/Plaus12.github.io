@@ -136,7 +136,7 @@
     { "elements": ["tree", "snow"], "result": "evergreen" },
     { "elements": ["river", "metal"], "result": "gold" },
     { "elements": ["canyon", "metal"], "result": "gold" },
-    { "elements": ["gold", "paper"], "result": "metal" },
+    { "elements": ["gold", "paper"], "result": "money" },
     { "elements": ["evergreen", "evergreen"], "result": "forest" },
     { "elements": ["tree", "evergreen"], "result": "forest" },
     { "elements": ["leather", "paper"], "result": "book" },
