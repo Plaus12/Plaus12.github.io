@@ -144,5 +144,7 @@
     { "elements": ["flower", "insect"], "result": "bee" },
     { "elements": ["bee", "gold"], "result": "wax" },
     { "elements": ["wax", "fire"], "result": "candle" },
+    { "elements": ["planet", "planet"], "result": "planetary system" },
+    { "elements": ["sun", "planet"], "result": "planetary system" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]

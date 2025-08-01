@@ -108,5 +108,6 @@
     "bee": { "texture": "bee.png" },
     "wax": { "texture": "wax.png" },
     "candle": { "texture": "candle.png" },
+    "planetary system": { "texture": "planetary_system.png" },
     "stone": { "texture": "stone.png" }
 }
