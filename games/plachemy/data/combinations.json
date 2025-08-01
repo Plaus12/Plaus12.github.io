@@ -132,6 +132,7 @@
     { "elements": ["snow", "human"], "result": "snowman" },
     { "elements": ["snow", "charcoal"], "result": "snowman" },
     { "elements": ["forest", "life"], "result": "mushroom" },
+    { "elements": ["cave", "life"], "result": "mushroom" },
     { "elements": ["tree", "cold"], "result": "evergreen" },
     { "elements": ["tree", "snow"], "result": "evergreen" },
     { "elements": ["river", "metal"], "result": "gold" },
@@ -146,5 +147,15 @@
     { "elements": ["wax", "fire"], "result": "candle" },
     { "elements": ["planet", "planet"], "result": "planetary system" },
     { "elements": ["sun", "planet"], "result": "planetary system" },
+    { "elements": ["wind", "tree"], "result": "leaf" },
+    { "elements": ["leaf", "evergreen"], "result": "needle" },
+    { "elements": ["wind", "evergreen"], "result": "needle" },
+    { "elements": ["needle", "tree"], "result": "leaf" },
+    { "elements": ["farmer", "tree"], "result": "fruit" },
+    { "elements": ["sun", "tree"], "result": "fruit" },
+    { "elements": ["flower", "time"], "result": "fruit" },
+    { "elements": ["fruit", "evergreen"], "result": "pinecone" },
+    { "elements": ["stone", "tree"], "result": "nut" },
+    { "elements": ["stone", "evergreen"], "result": "nut" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]

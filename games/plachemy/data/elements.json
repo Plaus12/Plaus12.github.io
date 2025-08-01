@@ -109,5 +109,10 @@
     "wax": { "texture": "wax.png" },
     "candle": { "texture": "candle.png" },
     "planetary system": { "texture": "planetary_system.png" },
+    "leaf": { "texture": "leaf.png" },
+    "needle": { "texture": "needle.png" },
+    "fruit": { "texture": "fruit.png" },
+    "pinecone": { "texture": "pinecone.png" },
+    "nut": { "texture": "nut.png" },
     "stone": { "texture": "stone.png" }
 }
