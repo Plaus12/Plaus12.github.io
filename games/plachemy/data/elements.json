@@ -114,5 +114,7 @@
     "fruit": { "texture": "fruit.png" },
     "pinecone": { "texture": "pinecone.png" },
     "nut": { "texture": "nut.png" },
+    "coal": { "texture": "coal.png" },
+    "diamond": { "texture": "diamond.png" },
     "stone": { "texture": "stone.png" }
 }

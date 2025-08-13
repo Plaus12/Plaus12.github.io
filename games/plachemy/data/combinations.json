@@ -157,5 +157,9 @@
     { "elements": ["fruit", "evergreen"], "result": "pinecone" },
     { "elements": ["stone", "tree"], "result": "nut" },
     { "elements": ["stone", "evergreen"], "result": "nut" },
+    { "elements": ["tree", "pressure"], "result": "coal" },
+    { "elements": ["plant", "pressure"], "result": "coal" },
+    { "elements": ["evergreen", "pressure"], "result": "coal" },
+    { "elements": ["coal", "pressure"], "result": "diamond" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]
