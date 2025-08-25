@@ -116,5 +116,7 @@
     "nut": { "texture": "nut.png" },
     "coal": { "texture": "coal.png" },
     "diamond": { "texture": "diamond.png" },
+    "honey": { "texture": "honey.png" },
+    "pencil": { "texture": "pencil.png" },
     "stone": { "texture": "stone.png" }
 }

@@ -161,5 +161,14 @@
     { "elements": ["plant", "pressure"], "result": "coal" },
     { "elements": ["evergreen", "pressure"], "result": "coal" },
     { "elements": ["coal", "pressure"], "result": "diamond" },
+    { "elements": ["bee", "milk"], "result": "honey" },
+    { "elements": ["bee", "smoke"], "result": "honey" },
+    { "elements": ["bee", "bottle"], "result": "honey" },
+    { "elements": ["bee", "flower"], "result": "honey" },
+    { "elements": ["paper", "tool"], "result": "pencil" },
+    { "elements": ["paper", "charcoal"], "result": "pencil" },
+    { "elements": ["paper", "coal"], "result": "pencil" },
+    { "elements": ["wood", "coal"], "result": "pencil" },
+    { "elements": ["wood", "charoal"], "result": "pencil" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]
