@@ -118,5 +118,12 @@
     "diamond": { "texture": "diamond.png" },
     "honey": { "texture": "honey.png" },
     "pencil": { "texture": "pencil.png" },
+    "tea": { "texture": "tea.png" },
+    "motion": { "texture": "motion.png" },
+    "wheel": { "texture": "wheel.png" },
+    "algae": { "texture": "algae.png" },
+    "boat": { "texture": "boat.png" },
+    "chicken": { "texture": "chicken.png" },
+    "pig": { "texture": "pig.png" },
     "stone": { "texture": "stone.png" }
 }
