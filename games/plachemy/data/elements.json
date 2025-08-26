@@ -125,5 +125,8 @@
     "boat": { "texture": "boat.png" },
     "chicken": { "texture": "chicken.png" },
     "pig": { "texture": "pig.png" },
+    "sheep": { "texture": "sheep.png" },
+    "wool": { "texture": "wool.png" },
+    "steel wool": { "texture": "steel_wool.png" },
     "stone": { "texture": "stone.png" }
 }

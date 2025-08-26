@@ -185,5 +185,8 @@
     { "elements": ["bird", "livestock"], "result": "chicken" },
     { "elements": ["egg", "livestock"], "result": "chicken" },
     { "elements": ["mud", "livestock"], "result": "pig" },
+    { "elements": ["cloud", "livestock"], "result": "sheep" },
+    { "elements": ["sheep", "tool"], "result": "wool" },
+    { "elements": ["wool", "metal"], "result": "steel wool" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]
