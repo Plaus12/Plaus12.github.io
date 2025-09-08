@@ -128,5 +128,14 @@
     "sheep": { "texture": "sheep.png" },
     "wool": { "texture": "wool.png" },
     "steel wool": { "texture": "steel_wool.png" },
+    "moss": { "texture": "moss.png" },
+    "electricity": { "texture": "electricity.png" },
+    "battery": { "texture": "battery.png" },
+    "light bulb": { "texture": "light_bulb.png" },
+    "light": { "texture": "light.png" },
+    "gem": { "texture": "gem.png" },
+    "clam": { "texture": "clam.png" },
+    "pearl": { "texture": "pearl.png" },
+    "salt": { "texture": "salt.png" },
     "stone": { "texture": "stone.png" }
 }
