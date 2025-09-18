@@ -137,5 +137,11 @@
     "clam": { "texture": "clam.png" },
     "pearl": { "texture": "pearl.png" },
     "salt": { "texture": "salt.png" },
+    "bone": { "texture": "bone.png" },
+    "technology": { "texture": "technology.png" },
+    "limestone": { "texture": "limestone.png" },
+    "cement": { "texture": "cement.png" },
+    "concrete": { "texture": "concrete.png" },
+    "coin": { "texture": "coin.png" },
     "stone": { "texture": "stone.png" }
 }
