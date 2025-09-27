@@ -226,6 +226,7 @@
     { "elements": ["leather", "money"], "result": "wallet" },
     { "elements": ["pencil", "paper"], "result": "letter" },
     { "elements": ["wheel", "livestock"], "result": "horse" },
+    { "elements": ["motion", "livestock"], "result": "horse" },
     { "elements": ["bird", "leaf"], "result": "feather" },
     { "elements": ["chicken", "leaf"], "result": "feather" },
     { "elements": ["wool", "tool"], "result": "thread" },
