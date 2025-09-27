@@ -143,5 +143,13 @@
     "cement": { "texture": "cement.png" },
     "concrete": { "texture": "concrete.png" },
     "coin": { "texture": "coin.png" },
+    "wallet": { "texture": "wallet.png" },
+    "letter": { "texture": "letter.png" },
+    "horse": { "texture": "horse.png" },
+    "feather": { "texture": "feather.png" },
+    "thread": { "texture": "thread.png" },
+    "fabric": { "texture": "fabric.png" },
+    "bow": { "texture": "bow.png" },
+    "arrow": { "texture": "arrow.png" },
     "stone": { "texture": "stone.png" }
 }
