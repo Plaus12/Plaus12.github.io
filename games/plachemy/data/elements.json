@@ -151,5 +151,9 @@
     "fabric": { "texture": "fabric.png" },
     "bow": { "texture": "bow.png" },
     "arrow": { "texture": "arrow.png" },
+    "cotton": { "texture": "cotton.png" },
+    "acid rain": { "texture": "acid_rain.png" },
+    "acid": { "texture": "acid.png" },
+    "lemon": { "texture": "lemon.png" },
     "stone": { "texture": "stone.png" }
 }

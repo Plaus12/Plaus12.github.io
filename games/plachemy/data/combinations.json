@@ -234,5 +234,14 @@
     { "elements": ["thread", "wood"], "result": "bow" },
     { "elements": ["bow", "wood"], "result": "arrow" },
     { "elements": ["bow", "feather"], "result": "arrow" },
+    { "elements": ["cloud", "plant"], "result": "cotton" },
+    { "elements": ["sheep", "plant"], "result": "cotton" },
+    { "elements": ["wool", "plant"], "result": "cotton" },
+    { "elements": ["cotton", "livestock"], "result": "sheep" },
+    { "elements": ["cotton", "tool"], "result": "thread" },
+    { "elements": ["smoke", "cloud"], "result": "acid rain" },
+    { "elements": ["smoke", "rain"], "result": "acid rain" },
+    { "elements": ["acid rain", "water"], "result": "acid" },
+    { "elements": ["acid", "fruit"], "result": "lemon" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]
