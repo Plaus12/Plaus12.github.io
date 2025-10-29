@@ -86,7 +86,16 @@ function selectElement(element) {
     }
 }
 
-combineBtn.onclick = () => {
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'Enter') {
+        combineElements()
+    }
+});
+
+clearBtn.onclick = () => {
+    combineElements()
+};
+function combineElements() {
     if (selectedElement1 && selectedElement2) {
         const combination = combinationsData.find(combo => {
             return (combo.elements[0] === selectedElement1 && combo.elements[1] === selectedElement2) ||
@@ -114,7 +123,16 @@ combineBtn.onclick = () => {
     }
 };
 
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'Backspace') {
+        clearElements()
+    }
+});
+
 clearBtn.onclick = () => {
+    clearElements()
+};
+function clearElements() {
     selectedElement1 = null;
     selectedElement2 = null;
     element1Display.innerHTML = ' ';
@@ -147,7 +165,7 @@ function getHint() {
         else {
             alert(`You can create ${hint.result}.`);
         }
-        hintTimer = 30;
+        hintTimer = 10;
 
         var hintInterval = setInterval(function () {
             if (hintTimer > 1) {
