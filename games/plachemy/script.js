@@ -92,7 +92,7 @@ document.addEventListener('keydown', function (event) {
     }
 });
 
-clearBtn.onclick = () => {
+combineBtn.onclick = () => {
     combineElements()
 };
 function combineElements() {
