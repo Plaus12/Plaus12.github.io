@@ -243,5 +243,10 @@
     { "elements": ["smoke", "rain"], "result": "acid rain" },
     { "elements": ["acid rain", "water"], "result": "acid" },
     { "elements": ["acid", "fruit"], "result": "lemon" },
+    { "elements": ["fire", "dust"], "result": "ash" },
+    { "elements": ["fabric", "human"], "result": "clothing" },
+    { "elements": ["belt", "philosophy"], "result": "clothing" },
+    { "elements": ["fire", "fruit"], "result": "sugar" },
+    { "elements": ["fire", "honey"], "result": "sugar" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]

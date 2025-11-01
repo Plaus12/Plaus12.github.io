@@ -155,5 +155,8 @@
     "acid rain": { "texture": "acid_rain.png" },
     "acid": { "texture": "acid.png" },
     "lemon": { "texture": "lemon.png" },
+    "ash": { "texture": "ash.png" },
+    "clothing": { "texture": "clothing.png" },
+    "sugar": { "texture": "sugar.png" },
     "stone": { "texture": "stone.png" }
 }
