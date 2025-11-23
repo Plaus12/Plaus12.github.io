@@ -158,5 +158,6 @@
     "ash": { "texture": "ash.png" },
     "clothing": { "texture": "clothing.png" },
     "sugar": { "texture": "sugar.png" },
+    "vegetable": { "texture": "vegetable.png" },
     "stone": { "texture": "stone.png" }
 }

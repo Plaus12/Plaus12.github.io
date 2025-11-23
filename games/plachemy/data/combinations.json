@@ -248,5 +248,6 @@
     { "elements": ["belt", "philosophy"], "result": "clothing" },
     { "elements": ["fire", "fruit"], "result": "sugar" },
     { "elements": ["fire", "honey"], "result": "sugar" },
+    { "elements": ["earth", "fruit"], "result": "vegetable" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]
