@@ -249,5 +249,6 @@
     { "elements": ["fire", "fruit"], "result": "sugar" },
     { "elements": ["fire", "honey"], "result": "sugar" },
     { "elements": ["earth", "fruit"], "result": "vegetable" },
+    { "elements": ["vegetable", "pressure"], "result": "oil" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]
