@@ -250,5 +250,10 @@
     { "elements": ["fire", "honey"], "result": "sugar" },
     { "elements": ["earth", "fruit"], "result": "vegetable" },
     { "elements": ["vegetable", "pressure"], "result": "oil" },
+    { "elements": ["oil", "ash"], "result": "soap" },
+    { "elements": ["snowman", "vegetable"], "result": "carrot" },
+    { "elements": ["glass", "light"], "result": "lens" },
+    { "elements": ["lens", "lens"], "result": "glasses" },
+    { "elements": ["lens", "metal"], "result": "magnifying_glass" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]

@@ -160,5 +160,10 @@
     "sugar": { "texture": "sugar.png" },
     "vegetable": { "texture": "vegetable.png" },
     "oil": { "texture": "oil.png" },
+    "soap": { "texture": "soap.png" },
+    "carrot": { "texture": "carrot.png" },
+    "lens": { "texture": "lens.png" },
+    "glasses": { "texture": "glasses.png" },
+    "magnifying_glass": { "texture": "magnifying_glass.png" },
     "stone": { "texture": "stone.png" }
 }
