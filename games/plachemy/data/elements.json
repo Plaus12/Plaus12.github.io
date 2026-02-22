@@ -165,5 +165,9 @@
     "lens": { "texture": "lens.png" },
     "glasses": { "texture": "glasses.png" },
     "magnifying_glass": { "texture": "magnifying_glass.png" },
+    "jellyfish": { "texture": "jellyfish.png" },
+    "skeleton": { "texture": "skeleton.png" },
+    "furniture": { "texture": "furniture.png" },
+    "wire": { "texture": "wire.png" },
     "stone": { "texture": "stone.png" }
 }

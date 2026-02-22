@@ -255,5 +255,9 @@
     { "elements": ["glass", "light"], "result": "lens" },
     { "elements": ["lens", "lens"], "result": "glasses" },
     { "elements": ["lens", "metal"], "result": "magnifying_glass" },
+    { "elements": ["electricity", "fish"], "result": "jellyfish" },
+    { "elements": ["bone", "bone"], "result": "skeleton" },
+    { "elements": ["house", "wood"], "result": "furniture" },
+    { "elements": ["metal", "electricity"], "result": "wire" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]
