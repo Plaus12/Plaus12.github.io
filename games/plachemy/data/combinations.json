@@ -259,5 +259,11 @@
     { "elements": ["bone", "bone"], "result": "skeleton" },
     { "elements": ["house", "wood"], "result": "furniture" },
     { "elements": ["metal", "electricity"], "result": "wire" },
+    { "elements": ["house", "glass"], "result": "window" },
+    { "elements": ["sky", "sun"], "result": "day" },
+    { "elements": ["sky", "moon"], "result": "night" },
+    { "elements": ["day", "opposite"], "result": "night" },
+    { "elements": ["night", "sky"], "result": "moon" },
+    { "elements": ["stone", "sky"], "result": "moon" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]
