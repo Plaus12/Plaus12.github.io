@@ -265,5 +265,11 @@
     { "elements": ["day", "opposite"], "result": "night" },
     { "elements": ["night", "sky"], "result": "moon" },
     { "elements": ["stone", "sky"], "result": "moon" },
+    { "elements": ["sugar", "dough"], "result": "cookie" },
+    { "elements": ["money", "house"], "result": "bank" },
+    { "elements": ["fruit", "water"], "result": "juice" },
+    { "elements": ["limestone", "bone"], "result": "fossil" },
+    { "elements": ["fossil", "time"], "result": "petroleum" },
+    { "elements": ["fossil", "pressure"], "result": "petroleum" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]

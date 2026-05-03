@@ -160,7 +160,7 @@ function getHint() {
     if (possibleHints.length > 0 && hintTimer <= 1) {
         const hint = possibleHints[Math.floor(Math.random() * possibleHints.length)];
         if (Math.random() <= 0.5) {
-            alert(`You can combine ${hint.elements[0]} + ${hint.elements[1]}.`);
+            alert(`You can combine ${hint.elements[Math.floor(Math.random())]} with something.`);
         }
         else {
             alert(`You can create ${hint.result}.`);

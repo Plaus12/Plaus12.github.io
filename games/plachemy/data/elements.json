@@ -173,5 +173,10 @@
     "day": { "texture": "day.png" },
     "night": { "texture": "night.png" },
     "moon": { "texture": "moon.png" },
+    "cookie": { "texture": "cookie.png"},
+    "bank": { "texture": "bank.png"},
+    "juice": { "texture": "juice.png"},
+    "fossil": { "texture": "fossil.png"},
+    "petroleum": { "texture": "petroleum.png"},
     "stone": { "texture": "stone.png" }
 }
