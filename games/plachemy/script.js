@@ -107,9 +107,15 @@ function combineElements() {
             unlockedElements.push(combination.result);
             localStorage.setItem("unlockedElements", JSON.stringify(unlockedElements));
             combine.cloneNode(true).play()
+            announcement.innerHTML = (`You've made ${combination.result}.`);
             updateProgress();
         }
+        else if (combination) {
+            announcement.innerHTML = (`You already have ${combination.result}.`);
+            failed.cloneNode(true).play()
+        }
         else {
+            announcement.innerHTML = (`Invalid combination.`);
             failed.cloneNode(true).play()
         }
 
