@@ -39,10 +39,13 @@ body {
 }
 
 .combiner {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    margin: 50px 0;
+    left: 50%;
+    right: 50%;
 }
 
 .buttons {
@@ -126,7 +129,7 @@ button {
     user-select: none;
 }
 
-#announcemenet {
+#announcement {
     top: 10px;
     text-align: center;
 }

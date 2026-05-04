@@ -7,6 +7,7 @@ const element2Text = document.getElementById('elementII');
 const combineBtn = document.getElementById('combineBtn');
 const clearBtn = document.getElementById('clearBtn');
 const progressDisplay = document.getElementById('progressDisplay');
+const announcement = document.getElementById('announcement');
 var soundtrack = new Audio('mirage.mp3');
 var select = new Audio('select.mp3');
 var combine = new Audio('combine.mp3');
