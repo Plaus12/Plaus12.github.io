@@ -126,6 +126,11 @@ button {
     user-select: none;
 }
 
+#announcemenet {
+    top: 10px;
+    text-align: center;
+}
+
 #progressDisplay {
     position: absolute;
     top: 10px;
