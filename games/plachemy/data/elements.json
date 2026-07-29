@@ -164,7 +164,7 @@
     "carrot": { "texture": "carrot.png" },
     "lens": { "texture": "lens.png" },
     "glasses": { "texture": "glasses.png" },
-    "magnifying_glass": { "texture": "magnifying_glass.png" },
+    "magnifying glass": { "texture": "magnifying_glass.png" },
     "jellyfish": { "texture": "jellyfish.png" },
     "skeleton": { "texture": "skeleton.png" },
     "furniture": { "texture": "furniture.png" },

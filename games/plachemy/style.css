@@ -129,6 +129,10 @@ button {
     user-select: none;
 }
 
+.element p {
+    position: absolute;
+}
+
 #announcement {
     top: 10px;
     text-align: center;

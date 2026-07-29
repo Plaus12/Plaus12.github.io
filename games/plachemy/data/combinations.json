@@ -254,7 +254,7 @@
     { "elements": ["snowman", "vegetable"], "result": "carrot" },
     { "elements": ["glass", "light"], "result": "lens" },
     { "elements": ["lens", "lens"], "result": "glasses" },
-    { "elements": ["lens", "metal"], "result": "magnifying_glass" },
+    { "elements": ["lens", "metal"], "result": "magnifying glass" },
     { "elements": ["electricity", "fish"], "result": "jellyfish" },
     { "elements": ["bone", "bone"], "result": "skeleton" },
     { "elements": ["house", "wood"], "result": "furniture" },
