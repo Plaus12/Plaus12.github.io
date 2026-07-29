@@ -131,6 +131,7 @@ button {
 
 .element p {
     position: absolute;
+    top: 60px;
 }
 
 #announcement {
