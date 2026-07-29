@@ -119,6 +119,7 @@ button {
     border: 1px solid var(--border-color);
     cursor: pointer;
     flex-direction: column;
+    position: relative;
 }
 
 .element img {
@@ -135,8 +136,8 @@ button {
     text-align: center;
     text-transform: capitalize;
     margin: 0;
-    position: relative;
-    top: -28px;
+    position: absolute;
+    top: 78px;
 }
 
 #announcement {
