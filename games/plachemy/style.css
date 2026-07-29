@@ -135,6 +135,8 @@ button {
     text-align: center;
     text-transform: capitalize;
     margin: 0;
+    position: relative;
+    top: -5px;
 }
 
 #announcement {
