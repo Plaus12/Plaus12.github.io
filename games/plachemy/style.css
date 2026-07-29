@@ -130,8 +130,12 @@ button {
 }
 
 .element p {
-    position: absolute;
+    position: relative;
     top: 60px;
+    font-size: 18px;
+    color: var(--text-color);
+    text-align: center;
+    text-transform: capitalize;
 }
 
 #announcement {
