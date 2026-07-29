@@ -61,7 +61,9 @@ function renderElements() {
     unlockedElements.forEach(element => {
         const elementDiv = document.createElement('div');
         elementDiv.classList.add('element');
+
         elementDiv.innerHTML = `<img src="assets/${elementsData[element].texture}" draggable="false" alt="${element}" title="${element}">`;
+
         elementDiv.onclick = () => selectElement(element);
         elementContainer.appendChild(elementDiv);
     });
@@ -167,7 +169,7 @@ function getHint() {
     if (possibleHints.length > 0 && hintTimer <= 1) {
         const hint = possibleHints[Math.floor(Math.random() * possibleHints.length)];
         if (Math.random() <= 0.5) {
-            alert(`You can combine ${hint.elements[Math.floor(Math.random())]} with something.`);
+            alert(`You can combine ${hint.elements[Math.round(Math.random())]} with something.`);
         }
         else {
             alert(`You can create ${hint.result}.`);
