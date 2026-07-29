@@ -62,11 +62,25 @@ function renderElements() {
         const elementDiv = document.createElement('div');
         elementDiv.classList.add('element');
 
-        elementDiv.innerHTML = `<img src="assets/${elementsData[element].texture}" draggable="false" alt="${element}" title="${element}"> <br> <p>${element}</p>`;
-
+        if (isElementInAnyCombination(element)) {
+            elementDiv.innerHTML = `<img src="assets/${elementsData[element].texture}" draggable="false" alt="${element}" title="${element}"> <br> <p>${element}</p>`;
+        }
+        else {
+            elementDiv.innerHTML = `<img src="assets/${elementsData[element].texture}" draggable="false" alt="${element}" title="${element}"> <br> <p><u>${element}</u></p>`;
+        }
+        
         elementDiv.onclick = () => selectElement(element);
         elementContainer.appendChild(elementDiv);
     });
+}
+
+function isElementInAnyCombination(element) {
+    for (const combination of combinationsData) {
+        if (element == combination.elements[0] || element == combination.elements[1]) {
+            return true;
+        }
+    }
+    return false;
 }
 
 function updateProgress() {
