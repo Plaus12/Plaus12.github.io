@@ -178,5 +178,8 @@
     "juice": { "texture": "juice.png"},
     "fossil": { "texture": "fossil.png"},
     "petroleum": { "texture": "petroleum.png"},
+    "galaxy": { "texture": "galaxy.png"},
+    "bubble": { "texture": "bubble.png"},
+    "bacterium": { "texture": "bacterium.png"},
     "stone": { "texture": "stone.png" }
 }
