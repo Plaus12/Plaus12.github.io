@@ -287,7 +287,6 @@
     { "elements": ["fossil", "pressure"], "result": "petroleum" },
     { "elements": ["planetary system", "planetary system"], "result": "galaxy" },
     { "elements": ["water", "soap"], "result": "bubble" },
-    { "elements": ["water", "soap"], "result": "bubble" },
     { "elements": ["small", "life"], "result": "bacterium" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]
