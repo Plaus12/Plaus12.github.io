@@ -181,5 +181,6 @@
     "galaxy": { "texture": "galaxy.png"},
     "bubble": { "texture": "bubble.png"},
     "bacterium": { "texture": "bacterium.png"},
+    "solar eclipse": { "texture": "solar_eclipse.png"},
     "stone": { "texture": "stone.png" }
 }

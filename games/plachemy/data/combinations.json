@@ -288,5 +288,6 @@
     { "elements": ["planetary system", "planetary system"], "result": "galaxy" },
     { "elements": ["water", "soap"], "result": "bubble" },
     { "elements": ["small", "life"], "result": "bacterium" },
+    { "elements": ["sun", "moon"], "result": "solar eclipse" },
     { "elements": ["rain", "energy"], "result": "storm" }
 ]
